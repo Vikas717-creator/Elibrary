@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books for your Department</title>
+    <link rel="stylesheet" href="mca.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        body {
+            background: url('images/aboutbg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .logo img {
+            height: 70px;
+            /* Adjust the height as needed */
+            width: auto;
+            /* Maintain the aspect ratio */
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #00093c;
+            height: 80px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            /* Remove default margin */
+        }
+        
+        nav ul a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul div.dropdown {
+            display: flex;
+            align-items: center;
+        }
+        
+        .social_icon {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            /* Push social icons to the right */
+        }
+        
+        input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        
+        .search-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 18px;
+            cursor: pointer;
+        }
+        
+        .login-btn,
+        .register-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .main_img img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            /* Add a subtle box shadow */
+        }
+    </style>
+</head>
+
+<body background="images/lulu.jpg">
+    <nav>
+
+        <div class="logo">
+            <img src="logonew.jpeg">
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="test1.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="department.html" class="dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
+                <div class="dropdown-menu">
+                    <a href="BTech.html" class="dropdown-item">BTech(CSE)</a>
+                    <a href="MTech.html" class="dropdown-item">MTech(CSE)</a>
+                    <a href="MCA.html" class="dropdown-item">MCA</a>
+                    <a href="msce.html" class="dropdown-item">MSc Environment</a>
+                    <a href="MBA.html" class="dropdown-item">MBA</a>
+                    <a href="MBATHM.html" class="dropdown-item">MBA (THM) </a>
+                    <a href="mscp.html" class="dropdown-item">Msc Physics</a>
+                    <a href="yoga.html" class="dropdown-item">MA/Msc Yoga</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="contactus.html">Contact us</a>
+            </li>
+            <li><a href="book.html" style="color:white;">Other Books</a></li>
+
+
+
+        </ul>
+
+        <div class="social_icon">
+            <input type="text" placeholder="Search for a book...">
+            <button type="submit">
+  <i class="fas fa-search"></i>
+</button>&nbsp;
+
+
+            <button class="login-btn">
+                <a href="login.html" class="login-btn">Login </a> </button> &nbsp;
+            <button class="register-btn">
+                <a href="register.html" class="register-btn">Register </a>
+            </button>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h1>Bachelors Of Hotel Management & Catering Technology:</h1>
+        <div class="subject">
+            <br>
+
+            <h2>Accomodation Operations:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1UgOQqJnDDEh072FiY11GfWm6gMSU9UnF/view?usp=drive_link">Front Office Operations</a>
+                    <a href="https://drive.google.com/file/d/1UgOQqJnDDEh072FiY11GfWm6gMSU9UnF/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Url8TfDGPSwhz8prdKqH8lnJU-rNMLwc/view?usp=drive_link">Front Office Competency Manual</a>
+                    <a href="https://drive.google.com/file/d/1Url8TfDGPSwhz8prdKqH8lnJU-rNMLwc/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1UkK6rH3zZMwGFLRNK_pgh4e3SnU3QJ85/view?usp=drive_link">Hotel Front Office Management</a>
+                    <a href="https://drive.google.com/file/d/1UkK6rH3zZMwGFLRNK_pgh4e3SnU3QJ85/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1UvKOE-6jIL_4ZANu6CIjrHjcyIX9DGBa/view?usp=drive_link">Hotel Housekeeping Training Manual</a>
+                    <a href="https://drive.google.com/file/d/1UvKOE-6jIL_4ZANu6CIjrHjcyIX9DGBa/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1UtxHiQfOxMniD6uhKcBr9pPWgJYejFvl/view?usp=drive_link">Professional Management of Housekeeping Operations</a>
+                    <a href="https://drive.google.com/file/d/1UtxHiQfOxMniD6uhKcBr9pPWgJYejFvl/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="subject">
+
+            <h2> Food Production & Cookery and Hotel:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1UwQHICoyKaBtXEX8ULtPVR5B0xi3_iKD/view?usp=drive_link">Hotel,Hospital,Hostel Management</a>
+                    <a href="https://drive.google.com/file/d/1UwQHICoyKaBtXEX8ULtPVR5B0xi3_iKD/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Uufyge7NoiMOSthWfzOSZqQQO2h-XN-2/view?usp=drive_link">Hotel :Operations and Management</a>
+                    <a href="https://drive.google.com/file/d/1Uufyge7NoiMOSthWfzOSZqQQO2h-XN-2/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1VJbFyF9qsaLzXBUaV_lKN2VwIDeL8utl/view?usp=drive_link">Modern Cookery</a>
+                    <a href="https://drive.google.com/file/d/1VJbFyF9qsaLzXBUaV_lKN2VwIDeL8utl/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1VA9VcYbWaXaw3W02dqaJKUhofT4W7WAl/view?usp=drive_link">Professional Chef</a>
+                    <a href="https://drive.google.com/file/d/1VA9VcYbWaXaw3W02dqaJKUhofT4W7WAl/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="subject">
+
+            <h2> Human Values:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1UVO-rjkT8RVYokzcYDyUd2t86ZWo040k/view?usp=drive_link">Communication and Soft Skills </a>
+                    <a href="https://drive.google.com/file/d/1UVO-rjkT8RVYokzcYDyUd2t86ZWo040k/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1U1AF5WRZWZ19r_qBLe_0a9mgiAyTMAQK/view?usp=drive_link">Foundational Course in Human Values</a>
+                    <a href="https://drive.google.com/file/d/1U1AF5WRZWZ19r_qBLe_0a9mgiAyTMAQK/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1ULjmCHadTBG65YUemyAK7KdEN2JLg-MA/view?usp=drive_link">Business Correspondence and Report Writing</a>
+                    <a href="https://drive.google.com/file/d/1ULjmCHadTBG65YUemyAK7KdEN2JLg-MA/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1UTEXiH6lYAiUEGd5UHSIeTzdXih5Kaul/view?usp=drive_link">Soft Skills & Personality Development </a>
+                    <a href="https://drive.google.com/file/d/1UTEXiH6lYAiUEGd5UHSIeTzdXih5Kaul/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1TlA6STBsVNMtKn8NXKvLmqrUast8wJC-/view?usp=drive_link">Health and Physical Education </a>
+                    <a href="https://drive.google.com/file/d/1TlA6STBsVNMtKn8NXKvLmqrUast8wJC-/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1TSOzMuAKEThkNqAV0Gs7q02FsxaM8RY4/view?usp=drive_link">My Experiments with Truth </a>
+                    <a href="https://drive.google.com/file/d/1TSOzMuAKEThkNqAV0Gs7q02FsxaM8RY4/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1UXq2K1uqiSBRM1cL6S2nov4Ki0kp7jlq/view?usp=drive_link">Communication Skills </a>
+                    <a href="https://drive.google.com/file/d/1UXq2K1uqiSBRM1cL6S2nov4Ki0kp7jlq/view?usp=drive_lin" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="subject">
+            <h2> Food & Beverages: </h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1UypAVLwGdYbs1FWjONyN4a6cOBIXcBPY/view?usp=drive_link">Food Beverage Service Notes</a>
+                    <a href="https://drive.google.com/file/d/1UypAVLwGdYbs1FWjONyN4a6cOBIXcBPY/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1V6y33pLiuzHB2ZRPAMqL6veKQtNTSymq/view?usp=drive_link">Food & Beverage Services</a>
+                    <a href="https://drive.google.com/file/d/1V6y33pLiuzHB2ZRPAMqL6veKQtNTSymq/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1ULjmCHadTBG65YUemyAK7KdEN2JLg-MA/view?usp=drive_link">Business Correspondence and Report Writing</a>
+                    <a href="https://drive.google.com/file/d/1ULjmCHadTBG65YUemyAK7KdEN2JLg-MA/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="subject">
+            <h2> Env. & Holistic Health: </h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1TiCoSH-fX2Aik2Q_7dkK9qILjg_Rxp1X/view?usp=drive_link">Asan Pranayama Mudra</a>
+                    <a href="https://drive.google.com/file/d/1TiCoSH-fX2Aik2Q_7dkK9qILjg_Rxp1X/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1ULcv-fep6pyBzKIVnAzBEVsn-UtxMc6f/view?usp=drive_link">Environment :Local Environment</a>
+                    <a href="https://drive.google.com/file/d/1ULcv-fep6pyBzKIVnAzBEVsn-UtxMc6f/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1TpbmhxGCo5nayHf0CRSm0dWsnej8urxO/view?usp=drive_link">Light on Yoga</a>
+                    <a href="https://drive.google.com/file/d/1TpbmhxGCo5nayHf0CRSm0dWsnej8urxO/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1TSOzMuAKEThkNqAV0Gs7q02FsxaM8RY4/view?usp=drive_link">Yogic Sukshama Vyayam </a>
+                    <a href="https://drive.google.com/file/d/1TSOzMuAKEThkNqAV0Gs7q02FsxaM8RY4/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1N9S87VKlm7asgh7IHMtg4LH38Ixrl-Kr/view?usp=drive_link">Environmental Science </a>
+                    <a href="https://drive.google.com/file/d/1N9S87VKlm7asgh7IHMtg4LH38Ixrl-Kr/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+    <script src="mba.js"></script>
+</body>
+
+</html>

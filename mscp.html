@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books for your Department</title>
+    <link rel="stylesheet" href="mca.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        body {
+            background: url('images/aboutbg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .logo img {
+            height: 70px;
+            /* Adjust the height as needed */
+            width: auto;
+            /* Maintain the aspect ratio */
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #00093c;
+            height: 80px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            /* Remove default margin */
+        }
+        
+        nav ul a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul div.dropdown {
+            display: flex;
+            align-items: center;
+        }
+        
+        .social_icon {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            /* Push social icons to the right */
+        }
+        
+        input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        
+        .submit {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 18px;
+            cursor: pointer;
+        }
+        
+        .login-btn,
+        .register-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .main_img img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            /* Add a subtle box shadow */
+        }
+    </style>
+</head>
+
+<body background="images/lulu.jpg">
+    <nav>
+
+        <div class="logo">
+            <img src="logonew.jpeg">
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="test1.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="department.html" class="dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
+                <div class="dropdown-menu">
+                    <a href="BTech.html" class="dropdown-item">BTech(CSE)</a>
+                    <a href="MTech.html" class="dropdown-item">MTech(CSE)</a>
+                    <a href="MCA.html" class="dropdown-item">MCA</a>
+                    <a href="BHM.html" class="dropdown-item">BHM</a>
+                    <a href="msce.html" class="dropdown-item">MSc Environment</a>
+                    <a href="MBA.html" class="dropdown-item">MBA</a>
+                    <a href="MBATHM.html" class="dropdown-item">MBA (THM) </a>
+                    <a href="yoga.html" class="dropdown-item">MA/Msc Yoga</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="contactus.html">Contact us</a>
+            </li>
+            <li><a href="book.html" style="color:white;">Other Books</a></li>
+
+
+
+        </ul>
+
+        <div class="social_icon">
+            <input type="text" placeholder="Search for a book...">
+            <button type="submit">
+  <i class="fas fa-search"></i>
+</button>&nbsp;
+
+            <button class="login-btn">
+                <a href="login.html" class="login-btn">Login </a> </button> &nbsp;
+            <button class="register-btn">
+                <a href="register.html" class="register-btn">Register </a>
+            </button>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h1>MSc Physics:</h1>
+        <div class="subject">
+            <br>
+
+            <h2 style="text-align:left;">Classical and Quantum Mechanics and Chemistry:</h2>
+            <br>
+
+            <ul>
+
+                <li><a href="https://drive.google.com/file/d/16nJcvTtAiW0jawYmAYj-V9UtMiGqMWgb/view?usp=drive_link">Classical Mechanics by H.G.</a>
+                    <a href="https://drive.google.com/file/d/16nJcvTtAiW0jawYmAYj-V9UtMiGqMWgb/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/16hKCHGZtM3PxcbZAekPNqgLVDfxDeHOp/view?usp=drive_link">Quantum Mechanics by G.Aruldhas</a>
+                    <a href="https://drive.google.com/file/d/16hKCHGZtM3PxcbZAekPNqgLVDfxDeHOp/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/16qKzLxdl_d9pZm9U-fE70pp5PGMZVNV-/view?usp=drive_link">Introduction to Quantum Mechanics</a>
+                    <a href="https://drive.google.com/file/d/16qKzLxdl_d9pZm9U-fE70pp5PGMZVNV-/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href=" https://drive.google.com/file/d/1BEjYTH8QYCdTAmtfnm2LrLed0aG3wxp2/view?usp=drive_link">Quantum Chemistry </a>
+                    <a href="https://drive.google.com/file/d/1BEjYTH8QYCdTAmtfnm2LrLed0aG3wxp2/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="subject">
+
+            <h2> Mathematical Physics and Semiconductors:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/16QdtHr7BgOxIgB6bPZL1fh14hkMqWl_Q/view?usp=drive_link">Advance Engineering Mathematics by Erwin</a>
+                    <a href="https://drive.google.com/file/d/16QdtHr7BgOxIgB6bPZL1fh14hkMqWl_Q/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1CDqfvX086SAJaxMDepyiTQIjf8fr4-XV/view?usp=drive_link">Mathematical Physics</a>
+                    <a href="https://drive.google.com/file/d/1CDqfvX086SAJaxMDepyiTQIjf8fr4-XV/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Ay0w1f6QCxnvYeyiNDWBm2GmCR6z9wsg/view?usp=drive_linkk">Semiconductors: Principles and Technology</a>
+                    <a href="https://drive.google.com/file/d/1Ay0w1f6QCxnvYeyiNDWBm2GmCR6z9wsg/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1DgroaCxxRvRXLB18iXOjJxPwvXhEFvTm/view?usp=drive_link ">Semiconductors</a>
+                    <a href="https://drive.google.com/file/d/1DgroaCxxRvRXLB18iXOjJxPwvXhEFvTm/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="subject">
+
+            <h2> Classical Electrodynamics and Electronics:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/16dEMbh5PvXdOhsAr4EBpTj5mAyfKli4z/view?usp=drive_link">Classsical Electromagnetic Radiations</a>
+                    <a href="https://drive.google.com/file/d/16dEMbh5PvXdOhsAr4EBpTj5mAyfKli4z/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/16sxiYGwFXETv748K6rrVw4CZkEzfUsTX/view?usp=drive_link">Classical Electrodynamics by Jackson</a>
+                    <a href="https://drive.google.com/file/d/16sxiYGwFXETv748K6rrVw4CZkEzfUsTX/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/16Eoz7LHaalqAC433pV-QBz5VestXVq3n/view?usp=drive_link">Digital Electronics : Principles</a>
+                    <a href="https://drive.google.com/file/d/16Eoz7LHaalqAC433pV-QBz5VestXVq3n/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/16GXOKL_vl88O-oEKW4bRHfBfAAgbwKFV/view?usp=drive_link">Integrated Electronics </a>
+                    <a href="https://drive.google.com/file/d/16GXOKL_vl88O-oEKW4bRHfBfAAgbwKFV/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="subject">
+
+            <h2>Atomic,Molecular Physics and Stastical, Particle Physics :</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1BEp0_XE1YtNtv5e4L3uNhc_wwcUqBpU-/view?usp=drive_link">Physics of Atoms and Molecules</a>
+                    <a href="https://drive.google.com/file/d/1BEp0_XE1YtNtv5e4L3uNhc_wwcUqBpU-/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/16sxiYGwFXETv748K6rrVw4CZkEzfUsTX/view?usp=drive_link">Classical Electrodynamics by Jackson</a>
+                    <a href="https://drive.google.com/file/d/16sxiYGwFXETv748K6rrVw4CZkEzfUsTX/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1AuXz7Dwy3MOJja6t_7tFiK6h_bKqUmWM/view?usp=drive_link">Introduction to Elementary Particles</a>
+                    <a href="https://drive.google.com/file/d/1AuXz7Dwy3MOJja6t_7tFiK6h_bKqUmWM/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1B5IUbfdco07mSVGrSAMOX4pDWGCx0pJI/view?usp=drive_link">Introduction to Particle Physics </a>
+                    <a href="https://drive.google.com/file/d/1B5IUbfdco07mSVGrSAMOX4pDWGCx0pJI/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li> <a href="https://drive.google.com/file/d/16Ek79naDNhTEn3LLYeLMMkStQrAgt7Lt/view?usp=drive_link">Stastical Mechanics </a>
+                    <a href="https://drive.google.com/file/d/16Ek79naDNhTEn3LLYeLMMkStQrAgt7Lt/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="subject">
+
+            <h2>Nuclear and Condensed Matter Physics:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1BKbLbIWCYGDGpJCXX6AEiuWfQQEFk4rj/view?usp=drive_link">Basic Ideas and Concepts of Nuclear Physics</a>
+                    <a href="https://drive.google.com/file/d/1BKbLbIWCYGDGpJCXX6AEiuWfQQEFk4rj/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1B5IUbfdco07mSVGrSAMOX4pDWGCx0pJI/view?usp=drive_link"> Introduction to Solid State Physics </a>
+                    <a href="https://drive.google.com/file/d/1B5IUbfdco07mSVGrSAMOX4pDWGCx0pJI/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1BRGrudTvd1YpydMLJE5gywlR4YBxL6lw/view?usp=drive_link"> Elementary Solid State Physics </a>
+                    <a href="https://drive.google.com/file/d/1BRGrudTvd1YpydMLJE5gywlR4YBxL6lw/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1BUVikMbEt9abvT86fuIIPDuwo-pRlQUS/view?usp=drive_link">Nuclear Physics</a>
+                    <a href="https://drive.google.com/file/d/1BUVikMbEt9abvT86fuIIPDuwo-pRlQUS/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Bsk3QSyt6SiiK-JNNtSHpT2NfxMBylCG/view?usp=drive_link">Elementary Solid State Physics 2</a>
+                    <a href="https://drive.google.com/file/d/1Bsk3QSyt6SiiK-JNNtSHpT2NfxMBylCG/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1BOQr-vV2OgWX1JJ6jaxHflm5Hx8xx5cA/view?usp=drive_link">Introductory: Nuclear Physics </a>
+                    <a href="https://drive.google.com/file/d/1BOQr-vV2OgWX1JJ6jaxHflm5Hx8xx5cA/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="subject">
+            <h2> Numerical Methods and Programming and High Energy Physics </h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1BrCi_-gNRR9qTKRMdD6Tmxj3O5-NNlgt/view?usp=drive_link">Programming with Fortran</a>
+                    <a href="https://drive.google.com/file/d/1BrCi_-gNRR9qTKRMdD6Tmxj3O5-NNlgt/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1AvlvNGMoZIs-UbdGtczAgBy9csl1PGQ_/view?usp=drive_link">Introduction to High Energy Physics</a>
+                    <a href="https://drive.google.com/file/d/1AvlvNGMoZIs-UbdGtczAgBy9csl1PGQ_/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1BUjNJCkiXQfHfPQRYn3KWUo8MjotsADf/view?usp=drive_link">Computational Physics</a>
+                    <a href="https://drive.google.com/file/d/1BUjNJCkiXQfHfPQRYn3KWUo8MjotsADf/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1BKbLbIWCYGDGpJCXX6AEiuWfQQEFk4rj/view?usp=drive_link">Fundamentals of Physics</a>
+                    <a href="https://drive.google.com/file/d/1BKbLbIWCYGDGpJCXX6AEiuWfQQEFk4rj/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="subject">
+            <h2> Human Values ,Spectroscopy,Astrophysics </h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/16XTb80OTRryvrs0ZATRkQNdPnt-doKGT/view?usp=drive_link">Introduction to Human Values and Professional Ethics</a>
+                    <a href="https://drive.google.com/file/d/16XTb80OTRryvrs0ZATRkQNdPnt-doKGT/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1BIAI91NLIuLHiDrRHhCVAQf89Le9D0sN/view?usp=drive_link">Spectroscopy</a>
+                    <a href="https://drive.google.com/file/d/1BIAI91NLIuLHiDrRHhCVAQf89Le9D0sN/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1D7qzF4D5texbFSxt6-ag_ZGRlDOr4Nlp/view?usp=drive_link">Astrophysics</a>
+                    <a href="https://drive.google.com/file/d/1D7qzF4D5texbFSxt6-ag_ZGRlDOr4Nlp/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1BvmvsVE93sv4FSDBZfenDR0uSONM5fEx/view?usp=drive_link">Stellar Astrophysics </a>
+                    <a href="https://drive.google.com/file/d/1BvmvsVE93sv4FSDBZfenDR0uSONM5fEx/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1BxfN_uUFEhSqP1fzG8oSuzWk-UyY048U/view?usp=drive_link"> Nuclear Astrophysics </a>
+                    <a href="https://drive.google.com/file/d/1BxfN_uUFEhSqP1fzG8oSuzWk-UyY048U/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="subject">
+            <h2> Energy Resources</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1Btpi70SIF5l9xQ7WSpssgoEFffvU24Uw/view?usp=drive_link">Fundamentals of Renewable Energy Resources</a>
+                    <a href="https://drive.google.com/file/d/1Btpi70SIF5l9xQ7WSpssgoEFffvU24Uw/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1CBaXqhb9_SPI9rxoLgK_CPHoSUEU50_7/view?usp=drive_link">Non-Coventional Energy Resources</a>
+                    <a href="https://drive.google.com/file/d/1CBaXqhb9_SPI9rxoLgK_CPHoSUEU50_7/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+            </ul>
+        </div>
+        <div class="subject">
+            <h2> Optoelectronics and Others: </h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1AsRUBPpiUxDzF80HQ4S4QmKLuRBU8gWJ/view?usp=drive_link">Solid State Physics</a>
+                    <a href="https://drive.google.com/file/d/1AsRUBPpiUxDzF80HQ4S4QmKLuRBU8gWJ/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1DNU3VL1Bpwv04xXhwXeXKiOyvWOSZrxY/view?usp=drive_link">Vacuum Technology</a>
+                    <a href="https://drive.google.com/file/d/1DNU3VL1Bpwv04xXhwXeXKiOyvWOSZrxY/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1D8LMoBIGlnVoAbkmtwkoclOIWgCp5Bsn/view?usp=drive_link">Physics of Medical Imaging</a>
+                    <a href="https://drive.google.com/file/d/1D8LMoBIGlnVoAbkmtwkoclOIWgCp5Bsn/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1DJL9Y7dsUvtUPvwj7wPuhsnuFQGcv0PO/view?usp=drive_link">Optoelectronics </a>
+                    <a href="https://drive.google.com/file/d/1DJL9Y7dsUvtUPvwj7wPuhsnuFQGcv0PO/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1D8yAyxA7w3NmRN8e8QSSDoWu1kA7x-ng/view?usp=drive_link">Medical Imaging physics </a>
+                    <a href="https://drive.google.com/file/d/1D8yAyxA7w3NmRN8e8QSSDoWu1kA7x-ng/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1DR1lBwO3GcKYQ7DObs2kscq944_lYxU1/view?usp=drive_link">Quantum Theory of Angular Momentum </a>
+                    <a href="https://drive.google.com/file/d/1DR1lBwO3GcKYQ7DObs2kscq944_lYxU1/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1D9JcBW0NK0_CoMkwp_RxVxQXGQf3g5a2/view?usp=drive_link">Introduction to Optics</a>
+                    <a href="https://drive.google.com/file/d/1D9JcBW0NK0_CoMkwp_RxVxQXGQf3g5a2/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1DAk2YtZp_8OXBpbC3yi_ox1fb2U_PH3d/view?usp=drive_link">Principles of Lasers </a>
+                    <a href="https://drive.google.com/file/d/1DAk2YtZp_8OXBpbC3yi_ox1fb2U_PH3d/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1DMoxY59e0ZpPdvOKb0EYrRJ_rwGRLR4B/view?usp=drive_link">Optical fibre Communications </a>
+                    <a href="https://drive.google.com/file/d/1DMoxY59e0ZpPdvOKb0EYrRJ_rwGRLR4B/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1DNz8MpfY50jRI03GECqiAG73LLx1GCRw/view?usp=drive_link">Instrumentation Devices </a>
+                    <a href="https://drive.google.com/file/d/1DNz8MpfY50jRI03GECqiAG73LLx1GCRw/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1DgO1mLurzd5rxYKUYjI9O8Q7ghRYG707/view?usp=drive_link">Foundations pf Microwave Engineering </a>
+                    <a href="https://drive.google.com/file/d/1DgO1mLurzd5rxYKUYjI9O8Q7ghRYG707/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="mba.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books for your Department</title>
+    <link rel="stylesheet" href="mca.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <style>
+        body {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        body {
+            background: url('images/aboutbg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .logo img {
+            height: 70px;
+            /* Adjust the height as needed */
+            width: auto;
+            /* Maintain the aspect ratio */
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #00093c;
+            height: 80px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            /* Remove default margin */
+        }
+        
+        nav ul a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul div.dropdown {
+            display: flex;
+            align-items: center;
+        }
+        
+        .social_icon {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            /* Push social icons to the right */
+        }
+        
+        input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+        
+        .submit {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 18px;
+            cursor: pointer;
+        }
+        
+        .login-btn,
+        .register-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .main_img img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            /* Add a subtle box shadow */
+        }
+    </style>
+</head>
+
+<body background="images/lulu.jpg">
+    <nav>
+
+        <div class="logo">
+            <img src="logonew.jpeg">
+        </div>
+
+        <ul>
+
+            <li>
+                <a href="test1.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="department.html" class="dropdown-toggle" data-bs-toggle="dropdown">Departments</a>
+                <div class="dropdown-menu">
+                    <a href="BTech.html" class="dropdown-item">BTech(CSE)</a>
+                    <a href="MTech.html" class="dropdown-item">MTech(CSE)</a>
+                    <a href="MCA.html" class="dropdown-item">MCA</a>
+                    <a href="BHM.html" class="dropdown-item">BHM</a>
+                    <a href="MBA.html" class="dropdown-item">MBA</a>
+                    <a href="MBATHM.html" class="dropdown-item">MBA (THM) </a>
+                    <a href="mscp.html" class="dropdown-item">Msc Physics</a>
+                    <a href="yoga.html" class="dropdown-item">MA/Msc Yoga</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="contactus.html">Contact us</a>
+            </li>
+            <li><a href="book.html" style="color:white;">Other Books</a></li>
+
+
+
+        </ul>
+
+        <div class="social_icon">
+            <input type="text" placeholder="Search for a book...">
+            <button type="submit">
+  <i class="fas fa-search"></i>
+</button>&nbsp;
+
+
+
+            <button class="login-btn">
+                <a href="login.html" class="login-btn">Login </a> </button> &nbsp;
+            <button class="register-btn">
+                <a href="register.html" class="register-btn">Register </a>
+            </button>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h1>MSc Environment Science:</h1>
+        <div class="subject">
+            <br>
+
+            <h2 style="text-align:left;">Environment Chemistry and Waste Management:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1RAoUyepL9VQot4MPOE6GrgwzRU5rmrUV/view?usp=drive_link">Hazardous Waste Management</a>
+                    <a href="https://drive.google.com/file/d/1RAoUyepL9VQot4MPOE6GrgwzRU5rmrUV/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Ou_9dQGyQCbASHmMqzC9C8ogfZ_mWNk1/view?usp=drive_link">Solid and Hazardous Waste Management</a>
+                    <a href="https://drive.google.com/file/d/1Ou_9dQGyQCbASHmMqzC9C8ogfZ_mWNk1/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1MY3dnuldskgju7W-xMWZZiosPpKAY7va/view?usp=drive_link">Medical Chemistry</a>
+                    <a href="https://drive.google.com/file/d/1MY3dnuldskgju7W-xMWZZiosPpKAY7va/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1P0tjb2eYfZVnmvPvRj0aK4vd9sNki78_/view?usp=drive_link">Environmental Chemistry </a>
+                    <a href="https://drive.google.com/file/d/1P0tjb2eYfZVnmvPvRj0aK4vd9sNki78_/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1OOI_Ah6iXwCuZCrtYH-CQ0INZDzNC99Z/view?usp=drive_link">Analytical Chemistry</a>
+                    <a href="https://drive.google.com/file/d/1OOI_Ah6iXwCuZCrtYH-CQ0INZDzNC99Z/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NNa7vZEP_qlGDuykOLDUtopP9_BSVGDU/view?usp=drive_link">Global Environmental Issues</a>
+                    <a href="https://drive.google.com/file/d/1NNa7vZEP_qlGDuykOLDUtopP9_BSVGDU/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="subject">
+
+            <h2> Earth Processes and Ecology and Environment:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1OS7BPHWDkLprXTDY4TYELruRVf61TzZ_/view?usp=drive_link">Green Chemistry</a>
+                    <a href="https://drive.google.com/file/d/1OS7BPHWDkLprXTDY4TYELruRVf61TzZ_/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Q1d0uFxHI1fRb9tAxJ6tCTTPIv-v1hC6/view?usp=drive_link">Watershed Management</a>
+                    <a href="https://drive.google.com/file/d/1Q1d0uFxHI1fRb9tAxJ6tCTTPIv-v1hC6/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1P50lytLh-i6OmMFLADUJWMtfbuSpbv_8/view?usp=drive_link">Environment and Ecology</a>
+                    <a href="https://drive.google.com/file/d/1P50lytLh-i6OmMFLADUJWMtfbuSpbv_8/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/16GXOKL_vl88O-oEKW4bRHfBfAAgbwKFV/view?usp=drive_link">Integrated Electronics </a>
+                    <a href="https://drive.google.com/file/d/16GXOKL_vl88O-oEKW4bRHfBfAAgbwKFV/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NX4jJrm4swTMBl3SmXQQdhDp7TjnhXDG/view?usp=drive_link">Ecology and Anthropology </a>
+                    <a href="https://drive.google.com/file/d/1NX4jJrm4swTMBl3SmXQQdhDp7TjnhXDG/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1S-ECrFlzsOTvbk7p7wTtWkb-RSQNZeTT/view?usp=drive_link">Ecology and Applied Env. Science </a>
+                    <a href="https://drive.google.com/file/d/1S-ECrFlzsOTvbk7p7wTtWkb-RSQNZeTT/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="subject">
+
+            <h2> Atmospheric Science and Pollution Engg:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1Pr8ZEVBRg9vVnzAoo-YR8MiXZIzejmMr/view?usp=drive_link">Elements of Environmental Engg.</a>
+                    <a href="https://drive.google.com/file/d/1Pr8ZEVBRg9vVnzAoo-YR8MiXZIzejmMr/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1PalWs4fjURFt5pkpZJuyV_i8JpomEK6z/view?usp=drive_link">Air Pollution</a>
+                    <a href="https://drive.google.com/file/d/1PalWs4fjURFt5pkpZJuyV_i8JpomEK6z/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NsKf7XECMHDDW8_YeoT39hOcXPkjP6dx/view?usp=drive_link">Environmental and Sustainable Development</a>
+                    <a href="https://drive.google.com/file/d/1NsKf7XECMHDDW8_YeoT39hOcXPkjP6dx/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+
+                <li><a href="https://drive.google.com/file/d/1N0kSt7h4ydf8ztgl99EmtPrEinlWe6E-/view?usp=drive_link">Industrial Chemistry </a>
+                    <a href="https://drive.google.com/file/d/1N0kSt7h4ydf8ztgl99EmtPrEinlWe6E-/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NBC--XeIenzvAi7sWp4IFtb_QWzKaxuY/view?usp=drive_link">Environmental Studies </a>
+                    <a href="https://drive.google.com/file/d/1NBC--XeIenzvAi7sWp4IFtb_QWzKaxuY/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1OMmI-gBqTOqrBVAq6Qkyr30PsjglSOgt/view?usp=drive_link">Atmospheric Chemistry </a>
+                    <a href="https://drive.google.com/file/d/1OMmI-gBqTOqrBVAq6Qkyr30PsjglSOgt/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1N9S87VKlm7asgh7IHMtg4LH38Ixrl-Kr/view?usp=drive_link">Environmental Science </a>
+                    <a href="https://drive.google.com/file/d/1N9S87VKlm7asgh7IHMtg4LH38Ixrl-Kr/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="subject">
+
+            <h2>Climate Change and Hydrology:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1RLLOmkBpMtysqT9d6kAVFKHgEpnO-fH2/view?usp=drive_link">Research Methodology</a>
+                    <a href="https://drive.google.com/file/d/1RLLOmkBpMtysqT9d6kAVFKHgEpnO-fH2/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1MfRFSZAgCTKBOHjB9uKt1mJINzIJ-ZFW/view?usp=drive_link">Occupational Health and Safety</a>
+                    <a href="https://drive.google.com/file/d/1MfRFSZAgCTKBOHjB9uKt1mJINzIJ-ZFW/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NsKf7XECMHDDW8_YeoT39hOcXPkjP6dx/view?usp=drive_link">Introduction to Oceanography</a>
+                    <a href="https://drive.google.com/file/d/1NsKf7XECMHDDW8_YeoT39hOcXPkjP6dx/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Pl_xJeyTVO6ciijjy-oQ0j9j8x4m_g4h/view?usp=drive_link">Introduction to Env. Engg </a>
+                    <a href="https://drive.google.com/file/d/1Pl_xJeyTVO6ciijjy-oQ0j9j8x4m_g4h/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Ptwp8RQj92cYIPdocmUxhKTBREO9tS8c/view?usp=drive_link">Past Glacial Environments</a>
+                    <a href="https://drive.google.com/file/d/1Ptwp8RQj92cYIPdocmUxhKTBREO9tS8c/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1N0kSt7h4ydf8ztgl99EmtPrEinlWe6E-/view?usp=drive_link">Industrial Chemistry </a>
+                    <a href="https://drive.google.com/file/d/1N0kSt7h4ydf8ztgl99EmtPrEinlWe6E-/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="subject">
+
+            <h2>Disaster Management and Glaciology:</h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1QhZpFP8k4gqTyqeRS9wrc3a4OC1yG1v4/view?usp=drive_link">Principles of Ecotoxicology</a>
+                    <a href="https://drive.google.com/file/d/1QhZpFP8k4gqTyqeRS9wrc3a4OC1yG1v4/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Oat-fS0rz9VvrxhzdguDswLTVXk_S-uz/view?usp=drive_link">Introduction  to Physical Oceanography</a>
+                    <a href="https://drive.google.com/file/d/1Oat-fS0rz9VvrxhzdguDswLTVXk_S-uz/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1MyMTvkC48Nix3rtGAjG4PkMrumnydP28/view?usp=drive_link">Modern Liquid Chromatography</a>
+                    <a href="https://drive.google.com/file/d/1MyMTvkC48Nix3rtGAjG4PkMrumnydP28/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1N3pt3bNFug5qqoJcdNGNBIlmPqj60Rx8/view?usp=drive_link">Nanoscience and Nanotechnology </a>
+                    <a href="https://drive.google.com/file/d/1N3pt3bNFug5qqoJcdNGNBIlmPqj60Rx8/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1N0kSt7h4ydf8ztgl99EmtPrEinlWe6E-/view?usp=drive_link">Industrial Chemistry </a>
+                    <a href="https://drive.google.com/file/d/1N0kSt7h4ydf8ztgl99EmtPrEinlWe6E-/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1QijxDaBQ7Ye-7wW9RY6dFuu9xEF9cK5k/view?usp=drive_link">Handbook of Ecotoxicology </a>
+                    <a href="https://drive.google.com/file/d/1QijxDaBQ7Ye-7wW9RY6dFuu9xEF9cK5k/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1OM46O53J556iQrw9P9V2DeNGbpKiWW-Y/view?usp=drive_link">Biological Oceanography </a>
+                    <a href="https://drive.google.com/file/d/1OM46O53J556iQrw9P9V2DeNGbpKiWW-Y/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+
+
+            </ul>
+
+        </div>
+        <div class="subject">
+            <h2> Env. Impact and Resource Conservation: </h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1ODi_y5YEh-rRPcodaLZIsjrmznAKs9L-/view?usp=drive_link">Understanding Earth</a>
+                    <a href="https://drive.google.com/file/d/1ODi_y5YEh-rRPcodaLZIsjrmznAKs9L-/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NxAC5Lha6csSqi3KxLTIeNgVNfAPCg2t/view?usp=drive_link">Conseervation and use of Natural Resources</a>
+                    <a href="https://drive.google.com/file/d/1NxAC5Lha6csSqi3KxLTIeNgVNfAPCg2t/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1RyenuzNP71t_GGSNxcDduC_Yfz1JplA5/view?usp=drive_link">Introduction to Wildlife Conservation</a>
+                    <a href="https://drive.google.com/file/d/1RyenuzNP71t_GGSNxcDduC_Yfz1JplA5/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1N0kSt7h4ydf8ztgl99EmtPrEinlWe6E-/view?usp=drive_link">Industrial Chemistry </a>
+                    <a href="https://drive.google.com/file/d/1N0kSt7h4ydf8ztgl99EmtPrEinlWe6E-/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1O9GrgDNm2EEmo0r5d9_K61UQdH3bDRv3/view?usp=drive_link">Env. Impact Assessment </a>
+                    <a href="https://drive.google.com/file/d/1O9GrgDNm2EEmo0r5d9_K61UQdH3bDRv3/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NRaBlwUMUo0_VZDyHRudfoRnlOevHvYY/view?usp=drive_link">Basics of Env. Science </a>
+                    <a href="https://drive.google.com/file/d/1NRaBlwUMUo0_VZDyHRudfoRnlOevHvYY/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1McHiMCI4344ZD2KTmxa-CeFrt7fP_0Ba/view?usp=drive_link">Nanostructured and Nanotechnology </a>
+                    <a href="https://drive.google.com/file/d/1McHiMCI4344ZD2KTmxa-CeFrt7fP_0Ba/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="subject">
+            <h2> Computer Applications and Env. Legislation: </h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1NUfhF4OlUYfmJ0ciH3DMPjOGLLzpZdY0/view?usp=drive_link">Environmental Law and Legislation</a>
+                    <a href="https://drive.google.com/file/d/1NUfhF4OlUYfmJ0ciH3DMPjOGLLzpZdY0/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1QXChepQEsnh8jtlajFTGMZIHwYFQAZcJ/view?usp=drive_link">Indian Environmental Law</a>
+                    <a href="https://drive.google.com/file/d/1QXChepQEsnh8jtlajFTGMZIHwYFQAZcJ/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1PxM8gNphGMu9_8qALpXtw6zWmcBrY1qq/view?usp=drive_link">Environmental Law</a>
+                    <a href="https://drive.google.com/file/d/1PxM8gNphGMu9_8qALpXtw6zWmcBrY1qq/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="subject">
+            <h2> Climatology and Energy & Env : </h2>
+            <br>
+
+            <ul>
+                <li><a href="https://drive.google.com/file/d/16dEMbh5PvXdOhsAr4EBpTj5mAyfKli4z/view?usp=drive_link">Classsical Electromagnetic Radiations</a>
+                    <a href="https://drive.google.com/file/d/16dEMbh5PvXdOhsAr4EBpTj5mAyfKli4z/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NinSBFSMrGNCX-mQV8OPtr-KPO6Rkyn5/view?usp=drive_link">Volcanoes and Earthquakes</a>
+                    <a href="https://drive.google.com/file/d/1NinSBFSMrGNCX-mQV8OPtr-KPO6Rkyn5/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NoOwCQc2USx-f-t2YJlE73C5ui3FlhX9/view?usp=drive_link">Sustainable Energy</a>
+                    <a href="https://drive.google.com/file/d/1NoOwCQc2USx-f-t2YJlE73C5ui3FlhX9/view?usp=drive_link" download> <button class="download-btn">  Download/View </button> </a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1QSYrJpaU3NBk_mxjJ43oIXp6TD4jC2rm/view?usp=drive_link">Introduction to Remote Sensing </a>
+                    <a href="https://drive.google.com/file/d/1QSYrJpaU3NBk_mxjJ43oIXp6TD4jC2rm/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1Mpfwi72lv-8mfOaxtH2vWavU_TCxDPiN/view?usp=drive_link">Industrial Safety and Health Management </a>
+                    <a href="https://drive.google.com/file/d/1Mpfwi72lv-8mfOaxtH2vWavU_TCxDPiN/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1RuUMwSR3BWyChe6K9GNLhUeGdUQu-Noc/view?usp=drive_link">Mineral Resources </a>
+                    <a href="https://drive.google.com/file/d/1RuUMwSR3BWyChe6K9GNLhUeGdUQu-Noc/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+                <li><a href="https://drive.google.com/file/d/1NmCYR2G_nKBpF85A6jovQTjEBToWrK04/view?usp=drive_link">Fundamentals of Biostatics</a>
+                    <a href="https://drive.google.com/file/d/1NmCYR2G_nKBpF85A6jovQTjEBToWrK04/view?usp=drive_link" download> <button class="download-btn ">    Download/View    </button></a>
+                </li>
+            </ul>
+
+            <div class="subject">
+                <h2> Human Values and Indian Knowledge System </h2>
+                <br>
+
+                <ul>
+                    <li><a href="https://drive.google.com/file/d/1NhkLFnvAdm3FM5r0TsXvx841A95DA3Hj/view?usp=drive_link">The Evolution of Culture</a>
+                        <a href="https://drive.google.com/file/d/1NhkLFnvAdm3FM5r0TsXvx841A95DA3Hj/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                    </li>
+                    <li><a href="https://drive.google.com/file/d/1Na8Q-scBC0xnLJ129KjrXCWQfF0QfjJT/view?usp=drive_link">Understand the politics of Northeast India</a>
+                        <a href="https://drive.google.com/file/d/1Na8Q-scBC0xnLJ129KjrXCWQfF0QfjJT/view?usp=drive_link" download><button class="download-btn">    Download/ View    </button></a>
+                    </li>
+                    <li><a href="https://drive.google.com/file/d/16XTb80OTRryvrs0ZATRkQNdPnt-doKGT/view?usp=drive_link">Introduction to Human Values and Professional Ethics</a>
+                        <a href="https://drive.google.com/file/d/16XTb80OTRryvrs0ZATRkQNdPnt-doKGT/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                    </li>
+                    <li><a href="https://drive.google.com/file/d/1Qb-z4YRHOo8-Mft2Qvnxv3dVZmpHh8jK/view?usp=drive_link">Foundational Course in Human Values and Professional Ethics</a>
+                        <a href="https://drive.google.com/file/d/1Qb-z4YRHOo8-Mft2Qvnxv3dVZmpHh8jK/view?usp=drive_link" download><button class="download-btn " onclick="download()">    Download/ View   </button></a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+        <script src="mba.js"></script>
+
+    </div>
+</body>
+
+</html>
