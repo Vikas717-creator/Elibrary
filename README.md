@@ -41,7 +41,7 @@ Edit
 
 ## 🔮 Future Enhancements
 
-- 🔐 Add login/signup for users and admin  
+- 🔐 Add login/signup for Library admin  
 - 📥 File upload panel for librarians  
 - 🔎 Search/filter by title, author, or department  
 - 📊 Usage analytics dashboard
