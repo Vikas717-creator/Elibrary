@@ -37,7 +37,10 @@ Edit
 
 ## 📸 Screenshots
 ![about page](https://github.com/user-attachments/assets/8118b766-7515-41c8-8660-f81123351a9b)
-
+![image](https://github.com/user-attachments/assets/7e56b7ee-ba48-4819-bfa1-beb670f89feb)
+![image](https://github.com/user-attachments/assets/ff6f0d53-3db5-4b52-a84e-996ceeaef0ad)
+![image](https://github.com/user-attachments/assets/0b90c56e-4939-4b6c-821f-ce92e8bd2eb6)
+![image](https://github.com/user-attachments/assets/9d1ef16a-f48f-4b7f-b11d-1b7ecdee7ad8)
 
 ## 🔮 Future Enhancements
 
