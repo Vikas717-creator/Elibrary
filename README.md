@@ -22,11 +22,9 @@ An interactive and user-friendly **E-Library system** built for HPTU  university
 1. Clone the repository  
 git clone https://github.com/Vikas717-creator/e-library.git cd e-library
 
-yaml
-Copy
-Edit
 
 2. Open `index.html` in your browser  
+
 *OR*  
 
 3. (If using XAMPP):  
